@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const apiKey = "AIzaSyDf0h3ghgfHYM300Jp8cEcMOan9Ki-xQLQ";
+const apiKey = "api_key";
 
 const App = () => {
   const [userInput, setUserInput] = useState("");
